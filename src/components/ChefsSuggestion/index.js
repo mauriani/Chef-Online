@@ -49,8 +49,8 @@ const colecaoImgs = [
   {
     key: String(Math.random()),
     img: img4,
-    label: 'Café da Manhã',
-    restaurant: 'Padaria LeiteQuente',
+    label: 'Comida Italiana',
+    restaurant: 'Lasagna',
     price: 39,
   },
   {
