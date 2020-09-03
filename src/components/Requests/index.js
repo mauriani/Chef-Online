@@ -1,0 +1,100 @@
+import React from 'react';
+import {FlatList, View, Text} from 'react-native';
+
+import Icon from 'react-native-vector-icons/Ionicons';
+import {
+  Container,
+  Titulo,
+  TextMenu,
+  Suggestion,
+  IconView,
+  Card,
+  Img,
+  TextTitulo,
+  SubTitulo,
+  Footer,
+  IconsView,
+  PriceText,
+} from './styles';
+
+import img1 from '../images/suggestion-01.png';
+import img2 from '../images/suggestion-02.png';
+import img3 from '../images/suggestion-03.png';
+import img4 from '../images/suggestion-04.png';
+import img5 from '../images/suggestion-05.png';
+import img6 from '../images/suggestion-06.png';
+
+const colecaoImgs = [
+  {
+    key: String(Math.random()),
+    img: img1,
+    label: 'Pizza Crocante',
+    restaurant: 'BonnaPizza',
+    text: 'Deseja pedir novamente ?',
+  },
+  {
+    key: String(Math.random()),
+    img: img2,
+    label: 'Comida Japonesa',
+    restaurant: 'Comida Oriental',
+    text: 'Deseja pedir novamente ?',
+  },
+  {
+    key: String(Math.random()),
+    img: img3,
+    label: 'Comida Mexicana',
+    restaurant: 'Los Nachos',
+    text: 'Deseja pedir novamente ?',
+  },
+  {
+    key: String(Math.random()),
+    img: img4,
+    label: 'Café da Manhã',
+    restaurant: 'Padaria LeiteQuente',
+    text: 'Deseja pedir novamente ?',
+  },
+  {
+    key: String(Math.random()),
+    img: img5,
+    label: 'Comida Vegana',
+    restaurant: 'Veganos',
+    text: 'Deseja pedir novamente ?',
+  },
+
+  {
+    key: String(Math.random()),
+    img: img6,
+    label: 'Cakes',
+    restaurant: 'Confeitaria JuCakes',
+    text: 'Deseja pedir novamente ?',
+  },
+];
+
+const Requests = () => {
+  return (
+    <Container>
+      <FlatList
+        data={colecaoImgs}
+        showsHorizontalScrollIndicator={false}
+        numColumns={2}
+        columnWrapperStyle={{
+          alignItems: 'flex-start',
+          justifyContent: 'center',
+        }}
+        keyExtractor={(item, index) => item.key}
+        renderItem={({item}) => (
+          <Card>
+            <Img source={item.img} resizeMode="cover"></Img>
+            <TextTitulo>{item.label}</TextTitulo>
+            <SubTitulo>{item.restaurant}</SubTitulo>
+            <Footer>
+              <PriceText>R${item.text}</PriceText>
+            </Footer>
+          </Card>
+        )}
+      />
+    </Container>
+  );
+};
+
+export default Request;

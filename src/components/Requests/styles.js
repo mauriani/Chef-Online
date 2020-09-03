@@ -36,7 +36,7 @@ export const Card = styled.TouchableOpacity`
 `;
 
 export const Img = styled.Image`
-  width: 173px;
+  width: 175px;
   height: 90px;
   align-items: center;
 `;

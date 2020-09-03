@@ -1,5 +1,5 @@
-import React from 'react';
-import {NavigationBar} from 'react-native-navigation-bar-color';
+import React, {Component} from 'react';
+import NavigationBar from 'react-native-navbar-color';
 
 import {Container, Header, Search, Input, Titulo} from './styles';
 import Promotion from '../../components/Promotion';
