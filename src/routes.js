@@ -47,10 +47,34 @@ const BottomNavigator = () => {
           borderTopColor: 'rgba(255,255,255,0.2)',
         },
       }}>
-      <Tab.Screen name="Home" component={Home} />
-      <Tab.Screen name="Categories" component={Categories} />
-      <Tab.Screen name="Cart" component={Cart} />
-      <Tab.Screen name="Requests" component={Requests} />
+      <Tab.Screen
+        name="Home"
+        component={Home}
+        options={{
+          title: 'Casa',
+        }}
+      />
+      <Tab.Screen
+        name="Categories"
+        component={Categories}
+        options={{
+          title: 'Categorias',
+        }}
+      />
+      <Tab.Screen
+        name="Cart"
+        component={Cart}
+        options={{
+          title: 'Carrinho',
+        }}
+      />
+      <Tab.Screen
+        name="Requests"
+        component={Requests}
+        options={{
+          title: 'Pedidos',
+        }}
+      />
     </Tab.Navigator>
   );
 };
