@@ -1,6 +1,6 @@
 # Chef-Online
 
-<img src="https://raw.githubusercontent.com/rocketseat-education/nlw-01-ominstack/master/.github/ecoleta.png">
+<img src="https://user-images.githubusercontent.com/32397288/92134521-ff018100-eddf-11ea-9d01-2e138d5c5b2d.jpeg">
 
 <h3>Projeto</h3>
 
