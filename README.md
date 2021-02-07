@@ -2,26 +2,43 @@
 
 <img src="https://user-images.githubusercontent.com/32397288/92134521-ff018100-eddf-11ea-9d01-2e138d5c5b2d.jpeg" width="200"> | <img src="https://user-images.githubusercontent.com/32397288/92134693-37a15a80-ede0-11ea-8a33-0cd1aaf1a1ba.jpeg" width="200"> | <img src="https://user-images.githubusercontent.com/32397288/92135155-c6ae7280-ede0-11ea-8ca4-dd538b109bdb.jpeg" width="200"> | 
 
-<h3>Projeto</h3>
+## Sobre o projeto
 
-Esse foi desenvolvido a partir de um curso de figma, ao longo das aulas realizei a montagem e agora você pode conferir o mesmo através desse projeto.
+Esse projeto foi desenvolvido a partir de um curso de figma, ao longo das aulas foi ensinado como montar um aplicação mobile usando a ferramenta. Após isso decidi colocar a mão na massa e fazer o mesmo usando react native.
 
-<h3>:computer: Tecnologias usadas</h3>
-<uL>
-  <li>React-Native</li>
-</ul>
+## 🚀 Tecnologias usadas
 
-<h3>Instalação</h3>
+- React-Native
 
-Você precisará ter o NodeJS, ReactNative e o Android Studio para emular ou usar outro emulador.
-Mas e de estrema importância ter o Android estudio já que esse projeto usa o react native cli, e após isso, clonar este repositório:
+## 💻Instalação
 
-> $ git clone https://github.com/mauriani/Chef-Online
+Antes de iniciar você precisar ter o ambiente configurado.
 
-Esse comando permite que você instale todas as dependências do projeto.
+### Pré requisitos
 
-> $ yarn install # ou npm install
+- React Native cli
+- nodejs
 
-Para executar os projetos:
+```jsx
+git clone https://github.com/mauriani/Chef-Online
+```
 
-- React-native run-android ou - React-native run-ios
+Após o download do repositório em sua máquina basta realizar os seguintes comandos:
+
+```jsx
+
+// acessar a basta do projeto
+cd Chefe-Online
+// instalar todas as dependencias do projeto
+yarn install ou npm install
+
+```
+
+## Executando Projeto
+
+```jsx
+
+// para executa você pode usar o expo instalado no seu celular
+cd Chefe-Online
+npx react-native run-android ou npx react-native run-ios
+```
