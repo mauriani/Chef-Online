@@ -1,6 +1,7 @@
 # Chef-Online
-
-<img src="https://user-images.githubusercontent.com/32397288/92134521-ff018100-eddf-11ea-9d01-2e138d5c5b2d.jpeg" width="200"> | <img src="https://user-images.githubusercontent.com/32397288/92134693-37a15a80-ede0-11ea-8a33-0cd1aaf1a1ba.jpeg" width="200"> | <img src="https://user-images.githubusercontent.com/32397288/92135155-c6ae7280-ede0-11ea-8ca4-dd538b109bdb.jpeg" width="200"> | 
+<p>
+  <img src="https://user-images.githubusercontent.com/32397288/92134521-ff018100-eddf-11ea-9d01-2e138d5c5b2d.jpeg" width="200"> | <img src="https://user-images.githubusercontent.com/32397288/92134693-37a15a80-ede0-11ea-8a33-0cd1aaf1a1ba.jpeg" width="200"> | <img src="https://user-images.githubusercontent.com/32397288/92135155-c6ae7280-ede0-11ea-8ca4-dd538b109bdb.jpeg" width="200"> |
+<p>
 
 ## Sobre o projeto
 
